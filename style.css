@@ -1,0 +1,95 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #495057;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40; /* Dark blue-gray header */
+    color: #fff;
+    padding: 15px 0; /* Reduced header padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 90%; /* Adjusted header width */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    width: 60px; /* Adjusted profile picture size */
+    height: 60px; /* Adjusted profile picture size */
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid #fff;
+}
+
+.profile h1 {
+    font-size: 1.8rem; /* Adjusted name font size */
+    font-weight: bold;
+    margin-bottom: 0; /* Removed margin bottom for name */
+}
+
+nav {
+    flex-basis: 50%; /* Adjusted navigation width */
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Reduced margin between nav items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem; /* Adjusted font size for mobile */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Yellow hover color */
+}
+
+.section {
+    padding: 30px;
+    background-color: #fff; /* White background for sections */
+    margin: 20px auto;
+    max-width: 90%; /* Adjusted section width */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 1.8rem; /* Adjusted heading font size */
+    margin-bottom: 15px; /* Reduced margin bottom for headings */
+    color: #343a40;
+}
+
+.section p {
+    font-size: 1rem; /* Adjusted paragraph font size */
+    margin-bottom: 15px; /* Reduced margin bottom for paragraphs */
+    color: #495057;
+}
+
+footer {
+    background-color: #343a40; /* Dark blue-gray footer */
+    color: #fff;
+    padding: 15px 0; /* Reduced footer padding */
+    text-align: center;
+}
