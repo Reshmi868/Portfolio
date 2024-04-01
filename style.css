@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7; /* Light gray background */
-    color: #495057;
+    background-color: #f7f7f7; /*  background */
+    color: #1b1f24;
     line-height: 1.6;
 }
 
 header {
-    background-color: #343a40; /* Dark blue-gray header */
-    color: #fff;
-    padding: 15px 0; /* Reduced header padding */
+    background-color: #043668; /* Dark blue-gray header */
+    color: #d8f7ff;
+    padding: 13px 0; /* Reduced header padding */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,15 +28,15 @@ header {
 }
 
 .profile img {
-    width: 60px; /* Adjusted profile picture size */
-    height: 60px; /* Adjusted profile picture size */
+    width: 80px; /* Adjusted profile picture size */
+    height: 80px; /* Adjusted profile picture size */
     border-radius: 50%;
-    margin-right: 10px;
-    border: 3px solid #fff;
+    margin-left: 10px;
+    border: 3px solid #c3bdfc;
 }
 
 .profile h1 {
-    font-size: 1.8rem; /* Adjusted name font size */
+    font-size: 2.8rem; /* Adjusted name font size */
     font-weight: bold;
     margin-bottom: 0; /* Removed margin bottom for name */
 }
@@ -58,7 +58,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem; /* Adjusted font size for mobile */
+    font-size: 1.2rem; /* Adjusted font size for mobile */
     transition: color 0.3s ease;
 }
 
@@ -68,27 +68,27 @@ nav ul li a:hover {
 
 .section {
     padding: 30px;
-    background-color: #fff; /* White background for sections */
+    background-color: #c0d1e9; /* White background for sections */
     margin: 20px auto;
     max-width: 90%; /* Adjusted section width */
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(160, 58, 255, 0.1);
 }
 
 .section h2 {
     font-size: 1.8rem; /* Adjusted heading font size */
     margin-bottom: 15px; /* Reduced margin bottom for headings */
-    color: #343a40;
+    color: #002a55;
 }
 
 .section p {
     font-size: 1rem; /* Adjusted paragraph font size */
     margin-bottom: 15px; /* Reduced margin bottom for paragraphs */
-    color: #495057;
+    color: #000000;
 }
 
 footer {
-    background-color: #343a40; /* Dark blue-gray footer */
+    background-color: #00376e; /* Dark blue-gray footer */
     color: #fff;
     padding: 15px 0; /* Reduced footer padding */
     text-align: center;
